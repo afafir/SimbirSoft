@@ -1,0 +1,47 @@
+
+""2020-06-26 12:30:16 - Method Signature: Object ru.javalab.simbirsofttask.service.impls.HtmlDownloaderServiceImpl.download(String). Exception: java.lang.IllegalArgumentException: Malformed URL: httpssimbirsoft.com/
+""2020-06-26 12:30:16 - Method Signature: void ru.javalab.simbirsofttask.service.Solve.solve(String). Exception: java.lang.IllegalArgumentException: Malformed URL: httpssimbirsoft.com/
+""2020-06-26 12:47:54 - Exception: java.io.FileNotFoundException: ssrc\main\resources\pages\0d6891b5-2aba-42ac-ba37-df997e8471c2.html (Системе не удается найти указанный путь)
+""2020-06-26 12:48:35 - Exception: java.io.FileNotFoundException: ssrc\main\resources\pages\e6c0dad5-2dd0-409f-b69c-82c8d6808d5d.html (Системе не удается найти указанный путь)
+""2020-06-26 12:49:40 - Method Signature: Map ru.javalab.simbirsofttask.service.impls.UniqueCounterServiceFileImpl.countAndSave(String,String). Exception: java.lang.IllegalStateException
+""2020-06-26 12:49:40 - Method Signature: void ru.javalab.simbirsofttask.service.Solve.solve(String). Exception: java.lang.IllegalStateException
+""2020-06-26 14:48:30 - Application run failed
+"org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'solve': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'dynamic.object.name' in value "${dynamic.object.name}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:405)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:893)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:551)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at ru.javalab.simbirsofttask.SimbirsoftTaskApplication.main(SimbirsoftTaskApplication.java:22)
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'dynamic.object.name' in value "${dynamic.object.name}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:178)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:124)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:239)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:175)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:912)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1245)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1224)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	... 18 common frames omitted
+"2020-06-26 14:48:54 - Method Signature: void ru.javalab.simbirsofttask.service.Solve.solve(String). Exception: java.lang.NullPointerException
+""2020-06-26 14:50:44 - Method Signature: void ru.javalab.simbirsofttask.service.Solve.solve(String). Exception: java.lang.NullPointerException
+""2020-06-26 14:50:50 - Method Signature: void ru.javalab.simbirsofttask.service.Solve.solve(String). Exception: java.lang.NullPointerException
+""2020-06-26 17:04:44 - Exception: java.io.FileNotFoundException: 50745dd8-70cb-42e3-ae16-f1cc970951dd.html (Не удается найти указанный файл)
+""2020-06-26 17:07:39 - Exception: java.io.FileNotFoundException: ed94fa14-1fc3-46c3-8a92-b46e925cbd0e.html (Не удается найти указанный файл)
+"
