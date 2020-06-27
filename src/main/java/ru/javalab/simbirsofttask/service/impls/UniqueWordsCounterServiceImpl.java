@@ -18,7 +18,6 @@ public class UniqueWordsCounterServiceImpl implements UniqueWordsCounterService 
 
 
     /**
-     * This class is decorator over UniqueWordsCounterServiceImpl.
      *  This method counts the number of words and outputs them to the console
      * @param text - the text for which the number of words is calculated
      * @param link - the link to the page where the text is taken from
